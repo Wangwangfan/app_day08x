@@ -1,0 +1,50 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1530876010193" stop="1530876010209">
+  <name>test_01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1530876010193" status="passed" stop="1530876010201">
+      <name>Test_001.test_001_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="12392-MainThread"/>
+        <label name="host" value="MyLenovo"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530876010201" status="passed" stop="1530876010201">
+          <name>登陆</name>
+          <title>登陆</title>
+          <attachments>
+            <attachment source="81b5c881-e1c8-4b9f-9006-f5ce5d73495c-attachment.txt" title="描述" type="text/plain"/>
+            <attachment source="feea0ae4-e340-41bb-9855-4bc1c4835de1-attachment.txt" title="描述" type="text/plain"/>
+            <attachment source="0d05144e-6ce1-4247-b537-b148f5274bd1-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1530876010207" status="passed" stop="1530876010209">
+      <name>Test_001.test_001_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="12392-MainThread"/>
+        <label name="host" value="MyLenovo"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530876010209" status="passed" stop="1530876010209">
+          <name>注册</name>
+          <title>注册</title>
+          <attachments>
+            <attachment source="ef60c0a9-aee3-4355-925f-9ef98524fbb8-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
